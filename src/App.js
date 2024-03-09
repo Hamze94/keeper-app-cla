@@ -1,9 +1,10 @@
+import Dashboard from "./components/Dashboard";
+import SideBar from "./components/SideBar";
 function App() {
   return (
     <div className="App">
-      <h1>hd</h1>
-      <button>b</button>
-      button
+      <SideBar />
+      <Dashboard />
     </div>
   );
 }
